@@ -20,7 +20,7 @@ def score(team_score):
         formatted_score = team_score.replace("&", "&amp;")
         return str(formatted_score)
     else:
-        return "Not started"
+        return "Wait a little longer"
         ef display(matches):
     #matches = json.loads(matches)
     attachments = []
